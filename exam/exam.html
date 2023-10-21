@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+            margin-bottom: 5px;
+        
+        }
+
+        .head {
+            background-color: #e28181;
+            border: 2px solid rgb(234, 230, 234);
+            margin-bottom:5px ;
+
+        }
+
+       .head img {
+            padding: 5px 10px;
+        }
+
+        .head-link {
+            background-color: blanchedalmond;
+            width: 100%;
+            overflow: hidden;
+            /* position: fixed; */
+        }
+
+        .head-link-a a {
+            float: left;
+            display: block;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration:none ;
+        }
+
+        .left {
+            background-color:blanchedalmond;
+            padding: 5px;
+            width: 30%;
+            float: left;
+            display: block;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+
+       .content {  
+            width: 60%;
+            padding: 15px;
+            float: left;
+            margin-left: 5px;
+            box-sizing: border-box;
+        }
+
+        .footer {
+            background-color:blanchedalmond;
+            clear :both; 
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+          
+        } 
+
+        .left-img >img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+   <div class="head">
+         <img width="100x" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt0j9yg7YOOzXdvGEN5i8pH38xYM2Fv-TaLQ&usqp=CAU" alt="">
+   </div>
+
+   <div class="head-link">
+        <div class="head-link-a">
+            <a href="#">phim hoat hinh   |</a>
+            <a href="#">phim yeu thich   |</a>
+            <a href="#">gop y</a>
+        </div>
+   </div>
+
+    <div class="left">
+        <div class="left-contentner">
+            <div class="left-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgujPBLAogUJBzWSy6n7TiTdE3G0Ha39klqQ&usqp=CAU" alt="">
+                <b>welcome khach san one pice</b>
+                <p>5000000 luot xem</p>
+                <p>Channe video</p>
+            </div>
+            <div class="left-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgujPBLAogUJBzWSy6n7TiTdE3G0Ha39klqQ&usqp=CAU" alt="">
+                <b>welcome khach san one pice</b>
+                <p>5000000 luot xem</p>
+                <p>Channe video</p>
+            </div>
+            <!-- <div class="left-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgujPBLAogUJBzWSy6n7TiTdE3G0Ha39klqQ&usqp=CAU" alt="">
+                <b>welcome khach san one pice</b>
+                <p>5000000 luot xem</p>
+                <p>Channe video</p>
+            </div> -->
+         
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="conten-iframe">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/QNCHiBVlnQw?si=YLi8IHO7PK9Vcllc"
+              title="youtube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+           picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+            <b>to la meri</b>
+            <p>20000 luot xem</p>
+            <p>tac gia</p>
+        </div>
+
+        <div class="content-para">
+            <p>
+                – Bố cục phân chia thành các phần header, head-link, left content, right content, footer
+
+                – Phần header: Logo bên trái.
+
+                – Phần head-link: chứa các liên kết trang.
+
+                – Phần content: Left content là menu chứa danh sách các video có sẵn. Right Content chứa nội dung video được chọn trong phần menu. Mặc định hiển thị video đầu tiên trong danh sách video ở phần menu trái.
+
+                – Phần footer: Chứa thông tin bản quyền  
+            </p>
+        </div>
+
+    </div>
+
+    <div class="footer"> &copy;2017-thiet ke Wed boi trang hoathinhvn.net</div>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+div:hover{
+    background-color: rgb(236, 222, 236);
+}
+
+.suverry{
+    border-collapse: collapse;
+    width: 100%;
+   
+}
+
+.suverry,tr,td,th{
+    border: 1px solid red;
+}
+#text{
+  
+}
