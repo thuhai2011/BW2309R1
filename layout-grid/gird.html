@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  
+    .grid-contentner {
+        display: grid;
+        gap: 5px;
+        background-color: rgb(108, 110, 109);
+    }
+    .grid-item {
+        background-color: rgb(223, 184, 136);
+        padding: 20px; 
+   
+    }
+
+    .item-heard {
+        grid-area: heard;
+    }
+
+    .item-menu {
+        grid-area: menu;
+    }
+
+    .item-content {
+        grid-area: main;
+    }
+
+    .item-right {
+        grid-area: right;
+    }
+
+    .item-footer {
+        grid-area: footer;
+    }
+
+ 
+
+    @media screen and (min-width:0px){
+        .grid-contentner {
+            grid-template-areas: 
+            "heard"
+            "menu "
+            "main"
+            "right"
+            "footer";
+            grid-template-rows: 100px 100px 100px;
+      
+        }
+    }
+    @media screen and (min-width:567px){
+        .grid-contentner {
+            grid-template-areas: 
+            "heard heard "
+            "menu main"
+            "menu right"
+            "footer footer";
+            grid-template-rows: 100px 100px 100px;
+          
+        }
+    }
+    @media screen and (min-width:764px){
+        .grid-contentner {
+            grid-template-areas: 
+            "heard heard heard"
+            "menu main right"
+            "menu footer footer";
+            grid-template-rows: 100px 100px 100px;
+    
+        }
+    }
+
+    @media screen and (min-width:992px){
+        .grid-contentner {
+            grid-template-areas: 
+            "heard heard heard heard"
+            "menu main right right"
+            "menu footer footer footer";
+            grid-template-rows: 100px 100px 100px;
+         
+        }
+    }
+
+ 
+</style>
+<body>
+    <div class="grid-contentner">
+        <div class="grid-item item-heard">heard</div>
+        <div class="grid-item item-menu">menu</div>
+        <div class="grid-item item-content">content</div>
+        <div class="grid-item item-right">right</div>
+        <div class="grid-item item-footer">footer</div>
+    </div>
+
+</body>
+</html>

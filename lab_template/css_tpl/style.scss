@@ -1,0 +1,45 @@
+$var_color: red ;
+
+@mixin style_paragrap {
+    font-size:  10px;
+    color: $var_color;
+}
+
+%style_share {
+    border-radius: 50%;
+    background-color: yellowgreen;
+    color: hotpink;
+}
+
+h1{
+    background-color: $var_color;
+}
+
+.nav {
+    background-color: $var_color;
+    color: gray;
+    font-size: 30px;
+    ul {
+        color: gray;
+        font-family: 'Times New Roman', Times, serif;
+        li {
+            padding: auto;
+            margin: 30px;
+            @include style_paragrap(green);
+        }
+    }
+}
+
+.div {
+    border: 1px solid gray;
+    width: 200px; 
+    height: 100px;
+    @include style_paragrap(blue)
+}
+
+button {
+    @extend %style_share;
+}
+
+
+

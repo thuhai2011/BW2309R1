@@ -1,0 +1,29 @@
+$var_color:#33b5e5;
+$var_color:#ffffff;
+
+@mixin gridcontent {
+    background-color:#ffffff;
+    border-right:1px solid #000000;
+}
+
+// @mixin 
+
+* {
+    box-sizing:border-box;
+}
+
+.gridwrapper {
+    overflow:auto;
+    position:relative;
+    height:250px;
+}
+.gridcontent {
+    width:8.33%;
+    margin:0;
+    border-right:1px solid grey;
+    height:100%;
+    float:left;
+    background-color:#84c754;
+    background-color:#f1f1f1;
+}
+

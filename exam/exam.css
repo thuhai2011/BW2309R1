@@ -1,0 +1,119 @@
+
+*{
+    box-sizing: border-box;
+    margin-bottom: 0;
+    padding: 0;
+
+}
+
+.head {
+    background-color: #e28181;
+    border: 2px solid rgb(234, 230, 234);
+    margin-bottom:5px ;
+
+}
+
+.head img {
+    padding: 5px 10px;
+}
+
+.head-link {
+    background-color: blanchedalmond;
+    width: 100%;
+    overflow: hidden;
+     /* position: fixed;  */
+}
+
+.head-link-a a {
+    float: left;
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration:none ;
+}
+
+.left-contentner {
+    height: 500px;
+    overflow: auto;
+}
+
+.footer {
+    background-color:blanchedalmond;
+    width:100% ;
+    clear :both; 
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+} 
+
+.left-img >img {
+    width: 100%;
+}
+
+/* RWD */
+
+/* laptop/desktop */
+@media screen and (min-width: 768px){
+    .left {
+        background-color:blanchedalmond;
+        padding: 10px;
+        width: 30%;
+        float: left;
+        display: block;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        box-sizing: border-box;
+    }
+    
+    .content {  
+        width: 70%;
+        padding: 15px;
+        float: left;
+        margin-left: 5px;
+        box-sizing: border-box;
+    }
+}
+
+
+@media screen and (min-width: 576px) {
+    .left {
+        background-color:blanchedalmond;
+        padding: 10px;
+        width: 50%;
+        float: left;
+        display: block;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        box-sizing: border-box;
+    }
+    
+    .content {  
+        width: 50%;
+        padding: 15px;
+        float: left;
+        margin-left: 5px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 576px ){
+    .left {
+        background-color:blanchedalmond;
+        padding: 10px;
+        width: 30%;
+        float: left;
+        display: block;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        box-sizing: border-box;
+    }
+    
+    .content {  
+        width: 60%;
+        padding: 15px;
+        float: left;
+        margin-left: 5px;
+        box-sizing: border-box;
+    }
+}

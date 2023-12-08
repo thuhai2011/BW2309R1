@@ -1,0 +1,132 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.resize {
+    background-color:gold ;
+    padding: 10px ;
+  
+}
+
+.resize p {
+    text-align: center;
+}
+
+.header-main {
+    background-color: mediumseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #fff;
+}
+
+.header-main div h2 {
+    margin-bottom: 7%;
+}
+
+.header-main div p {
+    margin-left: 15px;
+    font-size: 10px;
+}
+
+nav {
+    background-color: darkgray;
+    color: #fff;
+}
+
+ul {
+    /* text-align: center; */
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+}
+
+.content {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    
+}
+
+.content-sidebar {
+    background-color: rgb(237, 230, 230);
+    /* flex: 30%; */
+    padding: 20px;
+}
+
+.content-sidebar h2 , .content-main h2 ,h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.content-sidebar p {
+   
+}
+
+.fakeimg {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+   
+   
+}   
+
+.item {
+     /* height: 20%; 
+     clear: both; */
+}
+
+
+.content-main {
+    /* flex: 70%; */
+    padding: 20px;
+}
+
+
+
+
+footer {
+    display: flex;
+    background-color: darkgray;
+    height: 40px;
+    justify-content: center;
+}
+
+footer h2 {
+   align-self: center;
+   padding: 10px;
+}
+
+/*may tinh */
+@media screen and (max-width: 932px){
+    
+
+    .content-sidebar {
+     width: 30%;
+    }
+ 
+    .content-main {
+     width: 70%;
+    }
+ }
+
+ /*dien thoai*/
+@media screen and (max-width: 567px){
+    .content-sidebar {
+     width: 100%;
+    }
+ 
+    .content-main {
+     width: 100%;
+    }
+ }

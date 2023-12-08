@@ -1,0 +1,105 @@
+* {
+    font-family: Calibri;
+    color: #fff;
+    padding :0;
+    margin: 0;
+}
+
+.menu1 {
+    background-color: #394ba0;
+    list-style: none;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu1 >li {
+    display: inline;
+    padding: 5px;
+ 
+}
+
+.menu1>li>ul {
+    list-style: none;
+    display: none;
+}
+
+.menu1-first-child:hover .menu2{
+    display: block;
+    
+}
+
+.menu1-first-child {
+    position: relative;
+}
+
+.menu1>li:hover {
+    background-color: rgb(82, 82, 174);
+} 
+
+.menu2>li:hover {
+    background-color: rgb(82, 82, 174);
+} 
+
+.menu2 {
+    background-color: #394ba0;
+    position: absolute;
+    top: 30px ;
+    left: 20px;
+    width: 150px;
+    text-align: left;
+
+}
+
+.menu2>li {
+    padding: 0px 10px;
+    line-height: 30px;
+    
+}
+
+.menu2-first-child{
+    position: relative;
+    
+}
+
+.menu2-first-child:hover .menu3 {
+    display: block;
+}
+
+.menu3 >li:hover {
+    background-color: rgb(82, 82, 174);
+}  
+
+.menu3 {
+    background-color: #394ba0;
+    list-style: none;
+    width: 150px;
+    display: none;
+    position: absolute;
+    top: 5px ;
+    left: 150px;
+    padding: 5px;
+} 
+
+.menu2-02 {
+    background-color: #394ba0;
+    list-style: none;
+    width: 150px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    line-height: 30px;
+   
+}
+
+.menu1-second-child:hover .menu2-02 {
+    display: block; 
+}
+
+.menu1-second-child {
+    position: relative;
+}
+
+.menu2-02>li:hover {
+    background-color: #394ba0;
+}
